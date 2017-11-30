@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="pane1" prefHeight="515.0" prefWidth="915.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane4" prefHeight="515.0" prefWidth="915.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane3" prefHeight="515.0" prefWidth="915.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane2" prefHeight="515.0" prefWidth="915.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox alignment="CENTER" layoutY="67.0" prefHeight="392.0" prefWidth="915.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Pane focusTraversable="true" prefHeight="292.0" prefWidth="367.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;">
+               <effect>
+                  <DropShadow color="#797979" />
+               </effect>
+               <children>
+                  <Label layoutX="130.0" layoutY="37.0" text="YOUR LOGO" textFill="#9e9e9e">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField focusColor="#405aa800" labelFloat="true" layoutX="77.0" layoutY="99.0" maxWidth="213.0" minWidth="184.0" prefHeight="36.0" prefWidth="213.0" promptText="USERNAME" style="-fx-border-color: #0887ff; -fx-padding: 10px; -fx-border-width: 0 0 1 0;" unFocusColor="#0a89ff00">
+                     <padding>
+                        <Insets left="10.0" top="10.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXPasswordField focusColor="#405aa800" labelFloat="true" layoutX="77.0" layoutY="164.0" maxWidth="213.0" minWidth="192.0" prefHeight="36.0" prefWidth="213.0" promptText="PASSWORD" style="-fx-border-color: #0887ff; -fx-padding: 10px; -fx-border-width: 0 0 1 0 0;" unFocusColor="#4d4d4d00">
+                     <padding>
+                        <Insets left="10.0" top="10.0" />
+                     </padding>
+                  </JFXPasswordField>
+                  <JFXButton layoutX="79.0" layoutY="266.0" prefHeight="36.0" prefWidth="213.0" style="-fx-background-color: #0887ff; -fx-background-radius: 50PX;" text="GET STARTED" textFill="WHITE" />
+                  <JFXButton layoutX="80.0" layoutY="329.0" prefHeight="36.0" prefWidth="213.0" text="FORGOT YOUR PASSWORD ?" textFill="#0ab98d" underline="true" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
